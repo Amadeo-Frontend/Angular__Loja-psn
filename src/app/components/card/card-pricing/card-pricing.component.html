@@ -1,1 +1,14 @@
-<p>card-pricing works!</p>
+<div class="card-pricing__container p-3 absolute bottom-0 left-0 w-full h-[70px] bg-[rgba(0,0,0,0.8)] font-karla">
+	<div class="card-pricing__title mb-[3px]">
+		<h3 class="text-secundary">Play it now</h3>
+	</div>
+	<div class="card-pricing__value flex flex-row justify-between">
+		<div class="card-pricing__value__console flex flex-row">
+			<span class="text-[aqua] mr-2">|</span>
+			<p class="text-secundary/80">{{gameType}}</p>
+		</div>
+		<div class="card-pricing__value__money">
+			<p class="text-secundary/80">{{gamePrice}}</p>
+		</div>
+	</div>
+</div>

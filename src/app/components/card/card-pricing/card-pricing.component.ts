@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-pricing',
@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   templateUrl: './card-pricing.component.html'
 })
 export class CardPricingComponent {
-
+@Input()
+gameType:string="PS5"
+@Input()
+gamePrice:string="R$ 399,99"
 }
