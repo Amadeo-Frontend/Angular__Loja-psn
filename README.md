@@ -1,27 +1,59 @@
-# PsnStore
+# 🎮 Loja PSN Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+Este é um projeto de loja online desenvolvido em Angular, inspirado na PlayStation Network (PSN). Ele oferece uma plataforma para visualizar e comprar uma variedade de jogos disponíveis.
 
-## Development server
+## 📋 Recursos Principais
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Cards de Jogo:** Os jogos são exibidos usando cartões (`app-card`) que incluem informações como capa do jogo, descontos, plataforma e preço.
 
-## Code scaffolding
+- **Menu de Navegação:** O menu de navegação (`app-menu-bar`) permite aos usuários navegar facilmente pelas diferentes seções da loja, como páginas de início, categorias de jogos e carrinho de compras.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Responsividade:** O projeto é responsivo, garantindo uma experiência de usuário consistente em dispositivos de diferentes tamanhos, desde desktops até smartphones.
 
-## Build
+## ▶ Demonstração
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🧾 Como Executar o Projeto
 
-## Running end-to-end tests
+1. Clone este repositório para o seu ambiente local:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone https://github.com/Amadeo-Frontend/Angular__Loja-psn.git
+   ```
 
-## Further help
+2. Navegue até o diretório do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   cd psn-store
+   ```
+
+3. Instale as dependências necessárias:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   ng serve
+   ```
+
+5. Abra o navegador e acesse `http://localhost:4200` para visualizar a aplicação.
+
+## 🧾 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para
+sugestões, reportar bugs ou propor melhorias. Se deseja contribuir diretamente,
+faça um fork do repositório, crie uma branch para suas modificações e abra um
+pull request.
+
+## 💻 Suporte
+
+Se você encontrar algum problema ou tiver dúvidas sobre o uso deste projeto, por
+favor, abra um issue para discussão.
+
+Feito com ❤️ por Amadeo Bon para contribuir com a comunidade de desenvolvimento
+Angular. Boa codificação!
+
