@@ -18,6 +18,7 @@ module.exports = {
 			background: 'rgb(2,0,36)',
       primary: 'rgb(7,7,7)',
       secundary: '#fff',
+			tertiary:'#3e4357',
     },
   },
   plugins: [],
