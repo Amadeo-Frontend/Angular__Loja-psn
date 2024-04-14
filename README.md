@@ -12,6 +12,8 @@ Este é um projeto de loja online desenvolvido em Angular, inspirado na PlayStat
 
 ## ▶ Demonstração
 
+LIVE: https://angular-loja-psn.vercel.app/
+
 https://github.com/Amadeo-Frontend/Angular__Loja-psn/assets/104178969/477eca2c-5400-48df-b0e4-8fb705adb4bd
 
 ## 🧾 Como Executar o Projeto
